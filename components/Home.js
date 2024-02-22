@@ -9,10 +9,6 @@ const [playerName, setPlayerName] = useState('')
 const [hasPlayerName, setHasPlayerName] = useState(false)
 
 const handlePlayerName = () => {
-  return (
-    <Text>Yee:haw</Text>
-  )
-}
 
   return (
     
