@@ -1,10 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-export default function Scoreboard() {
+export default function Scoreboard({ navigation }) {
   return (
     <View>
-      <Text>Skörrebröd</Text>
+      <Text>Nothing here...</Text>
     </View>
   )
 }

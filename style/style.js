@@ -3,17 +3,17 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
   },
   header: {
     marginTop: 30,
     marginBottom: 15,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#0083da',
     flexDirection: 'row',
   },
   footer: {
     marginTop: 20,
-    backgroundColor: 'skyblue',
+    backgroundColor: '#0083da',
     flexDirection: 'row'
   },
   title: {
@@ -23,6 +23,7 @@ export default StyleSheet.create({
     fontSize: 23,
     textAlign: 'center',
     margin: 10,
+    fontFamily: 'serif'
   },
   author: {
     color: '#fff',
@@ -31,18 +32,21 @@ export default StyleSheet.create({
     fontSize: 15,
     textAlign: 'center',
     margin: 10,
+    fontFamily: 'serif'
   },
   gameboard: {
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   gameinfo: {
     backgroundColor: '#fff',
     textAlign: 'center',
     justifyContent: 'center',
     fontSize: 20,
-    marginTop: 10
+    margin: 10,
+    alignItems: 'center',
   },
   row: {
     marginTop: 20,
@@ -55,7 +59,7 @@ export default StyleSheet.create({
     margin: 30,
     flexDirection: "row",
     padding: 10,
-    backgroundColor: "#73CED6",
+    backgroundColor: '#33adff7e',
     width: 150,
     borderRadius: 15,
     justifyContent: 'center',
@@ -63,6 +67,16 @@ export default StyleSheet.create({
   },
   buttonText: {
     color:"#2B2B52",
-    fontSize: 20
+    fontSize: 20,
+    fontFamily: 'serif'
+  },
+  boldText: {
+    fontSize: 25,
+    fontWeight: 'bold',
+    fontFamily: 'serif',
+  },
+  infoText: {
+    fontFamily: 'serif',
+    marginTop: 10
   }
 });
